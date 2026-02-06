@@ -37,31 +37,9 @@ export default function Home() {
         </p>
 
        
-        <div className="flex justify-center gap-4 pt-4">
-          <a
-            href="/projects"
-            className="
-              px-6 py-3 rounded-lg
-              bg-teal-500 text-black font-medium
-              hover:bg-teal-400 transition
-            "
-          >
-            View Projects
-          </a>
-
-          <a
-            href="/contact"
-            className="
-              px-6 py-3 rounded-lg
-              border border-teal-400/40
-              text-teal-400 hover:bg-teal-400/10
-              transition
-            "
-          >
-            Contact Me
-          </a>
+       
         </div>
-      </div>
+     
     </section>
   )
 }
